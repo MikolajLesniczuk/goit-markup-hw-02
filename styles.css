@@ -5,8 +5,36 @@
 }
 h1 {
     color: #ffffff;
+
 }
 
+.lorem-span {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.lorem {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+ .about-us {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+ }
 
 /* style portfolio.css  !!!*/
 
@@ -109,7 +137,7 @@ line-height: 1.14;
     font-size: 14px;
     line-height: 1.71;
 }
-.mail {
+.contact-footer {
     color: rgba(255, 255, 255, 0.6) ;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -117,11 +145,7 @@ line-height: 1.14;
     font-size: 14px;
     line-height: 1.71;
 }
-.telephone {
-   color: rgba(255, 255, 255, 0.6) ;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+.contact-footer:hover,
+.contact-footer:focus {
+    color:#2196F3;
 }
