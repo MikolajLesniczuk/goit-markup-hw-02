@@ -1,3 +1,15 @@
+
+.main-upper {
+    background-color:#2F303A; 
+
+}
+h1 {
+    color: #ffffff;
+}
+
+
+/* style portfolio.css  !!!*/
+
 a {
     text-decoration: none;
 }
@@ -30,6 +42,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
 }
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
 
 
 .contact {
@@ -41,6 +57,11 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 }
+.contact:hover,
+.contact:focus
+ {
+    color: #2196F3;
+}
 
 .btn {
     cursor: pointer;
@@ -49,6 +70,10 @@ line-height: 1.14;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
 }
 
 
