@@ -2,9 +2,6 @@
 
 /*index*/
 
-a {
-    text-decoration: none;
-}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -15,13 +12,13 @@ body {
     background-color:#2F303A; 
 
 }
-h1 {
+.main-title {
     color: #ffffff;
 
 }
 
 .lorem-span {
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -31,7 +28,7 @@ h1 {
 }
 
 .lorem {
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -39,7 +36,7 @@ h1 {
     color: #757575;
 }
  .about-us {
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -48,7 +45,7 @@ h1 {
     color: #212121;
  }
  .our-team p{
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -57,7 +54,7 @@ h1 {
     color: #757575;
  }
  .our-team h3{
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -66,7 +63,7 @@ h1 {
     color: #212121;
  }
  .our-team h2{
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -110,7 +107,7 @@ h1 {
 
 .site-nav {
     color: #212121;
-    font-family: 'Roboto' ,sans-serif;
+    font-family: inherit ,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -125,7 +122,7 @@ h1 {
 .contact {
 color: #757575;
 text-decoration: none;
-font-family: 'Roboto' ,sans-serif;
+font-family: inherit ,sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -139,21 +136,34 @@ line-height: 1.14;
 
 .btn {
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    background-color: #F5F4FA;
+    color:#212121;
 }
 .btn:hover,
 .btn:focus {
     background-color: #2196F3;
 }
 
+.btn-order {
+    background-color: #2196F3;
+    color:#ffffff;
+    font-family: inherit , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+
 
 
 .images h3{
-    font-family: 'Roboto' ,sans-serif;
+    font-family: inherit ,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -162,7 +172,7 @@ line-height: 1.14;
 }
 
 .images p {
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -177,7 +187,7 @@ line-height: 1.14;
 }
 .place {
     color:#ffffff;
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -185,7 +195,7 @@ line-height: 1.14;
 }
 .contact-footer {
     color: rgba(255, 255, 255, 0.6) ;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
